@@ -1,0 +1,4 @@
+LANGSMITH_PROJECT=gen-ai-chatbot
+LANGSMITH_TRACING=true
+LANGSMITH_API_KEY=<langsmith_api_key>
+GROQ_API_KEY=<groq_api_key>
