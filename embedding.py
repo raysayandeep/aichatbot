@@ -9,6 +9,7 @@ langhchain_document = Document(
     page_content=sampletext,
     metadata={'source':'text'}
 )
+print(langhchain_document)
 document_list.append(langhchain_document)
 result = embeddings.embed_query(sampletext)
 #result = embeddings.embed_documents(sampletext)
